@@ -1,0 +1,38 @@
+.header{
+    align-items: center;
+    display: flex;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+.nav-logo img{
+    height: auto;
+    max-width: 150px;
+    width: 150px;
+    margin-left: 3rem;
+}
+
+.menu{
+    display: flex;
+    margin-right: 3rem;
+}
+
+.menu-item{
+    margin-left: 1rem;
+}
+
+.menu-item a{
+    color: var(--onyx);
+    font-weight: 700;
+    text-decoration: none;
+}

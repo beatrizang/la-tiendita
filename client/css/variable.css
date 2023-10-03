@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --ff-montserrat: 'Montserrat', sans-serif;
+    --ff-roboto: 'Roboto', sans-serif;
+    --onyx: hsl(203, 7%, 24%);
+    --timberwolf: hsl(38, 8%, 81%);
+    --platinum: hsl(45, 14%, 89%);
+    --keppel: hsl(168, 47%, 50%);
+    --safron: hsl(44, 78%, 58%);
+}
+
+body{
+    font-family: var(--ff-montserrat);
+}

@@ -1,0 +1,19 @@
+.about-us{
+    align-items: center;
+    background-color: var(--platinum);
+    display: flex;
+    flex-direction: column;
+    color: var(--onyx);
+    padding: 3rem 0;
+}
+
+.about-us-title{
+    font-weight: 700;
+    font-family: var(--ff-roboto);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.about-us-para{
+    padding: 1rem 0;
+}
