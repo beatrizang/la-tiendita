@@ -1,0 +1,91 @@
+.contact{
+    background-color: var(--onyx);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    color: var(--timberwolf);
+}
+
+.contact-subtitle{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.social{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials-media{
+    display: flex;
+}
+
+.socials-media li{
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+}
+
+.socials-media li a:hover{
+    color:white;
+}
+
+.socials-media li a{
+    color: var(--timberwolf);
+    transition: 0.2s all linear;
+}
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#form{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.field{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.form-input{
+    border: none;
+    font-family: var(--ff-montserrat);
+    height: 25px;
+    outline: none;
+    width: 200px;
+}
+
+textarea{
+    border: none;
+    font-family: var(--ff-montserrat);
+    height: 100px;
+    width: 200px;
+    outline: none;
+    resize: none;
+}
+
+.form-btn{
+    color: var(--onyx);
+    border: none;
+    cursor: pointer;
+    font-family: var(--ff-montserrat);
+    width: 100%;
+    font-weight: 700;
+    height: 35px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    transition: 0.3s all linear;
+}
+
+.form-btn:hover{
+    background-color: var(--safron);
+}

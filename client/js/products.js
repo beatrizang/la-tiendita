@@ -4,21 +4,21 @@ const products = [
         name: "bermuda cargo",
         price: 15500.30,
         quantity: 1,
-        img: "./images/bermuda-cargo.webp",
+        img: "/client/images/bermuda-cargo.webp",
     },
     {
         id:2,
         name:"campera jean",
         price: 35687.50,
         quantity:1,
-        img:"./images/campera-jean.webp",
+        img:"/client/images/campera-jean.webp",
     },
     {
         id:3,
         name:"gorra",
         price:5682.10,
         quantity:1,
-        img:"./iamges/gorra-verde.webp",
+        img:"/client/images/gorra-verde.webp",
     },
 
     {
@@ -26,7 +26,7 @@ const products = [
         name:"musculosa",
         price: 8750.30,
         quantity:1,
-        img:"./images/musculosa-blanca.webp",
+        img:"/client/images/musculosa-blanca.webp",
     },
 
     {
@@ -34,7 +34,7 @@ const products = [
         name:"pantalón cargo",
         price:32658.00,
         quantity:1,
-        img:"./images/pantalon-cargo.webp",
+        img:"/client/images/pantalon-cargo.webp",
     },
 
     {
@@ -42,7 +42,7 @@ const products = [
         name:"piluso",
         price: 7856.25,
         quantity:1,
-        img:"./images/piluso-crema.webp",
+        img:"/client/images/piluso-crema.webp",
     },
 
     {
@@ -50,7 +50,7 @@ const products = [
         name:"remera north face",
         price:12547.10,
         quantity:1,
-        img:"./iamges/remera-negra-nf",
+        img:"/client/images/remera-negra-nf.webp",
     },
 
     {
@@ -58,7 +58,7 @@ const products = [
         name:"remera vans",
         price:15000.00,
         quantity:1,
-        img:"./images/remera-negra-vans.webp",
+        img:"/client/images/remera-negra-vans.webp",
     },
 
     {
@@ -66,7 +66,7 @@ const products = [
         name:"zapatilla nike air force",
         price:87999.56,
         quantity:1,
-        img:"./images/zapatilla-nike-air-force.jpg",
+        img:"/client/images/zapatilla-nike-air-force.jpg",
     },
 
     {
@@ -74,6 +74,6 @@ const products = [
         name:"zapatilla vans old skull",
         price:65324.56,
         quantity:1,
-        img:"./images/zapatilla-vans-old-skull.webp",
+        img:"/client/images/zapatilla-vans-old-skull.webp",
     },
     ];
