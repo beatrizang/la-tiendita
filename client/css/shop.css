@@ -54,6 +54,10 @@
     opacity: 0.8;
 }
 
+.btn-close{
+    font-size: 22px;
+}
+
 .cart-btn{
     align-items: center;
     position: fixed;

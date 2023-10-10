@@ -10,7 +10,7 @@ const displayCart = () => {
     //modal header
     const modalHeader = document.createElement('div');
     const modalClose = document.createElement('div');
-    modalClose.innerText = '❌';
+    modalClose.innerHTML = '<i class="btn-close fa-solid fa-x"></i>';
     modalClose.className = 'modal-close';
     modalHeader.append(modalClose);
 
@@ -28,22 +28,23 @@ const displayCart = () => {
 
     //modal body
     if(cart.length > 0){
-    cart.forEach((product) =>{
+    cart.forEach((product) => {
         const modalBody = document.createElement('div');
         modalBody.className = 'modal-body';
         modalBody.innerHTML = `
         <div class="producto">
-            <img class="producto-img" src="${product.img}"/>
-            <div class="producto-info">
-                <h4>${product.name}</h4>
-            </div>
-            <div class="quantity">
+                <img class="producto-img" src="${product.img}"/>
+                <div class="producto-info">
+                    <h4>${product.name}</h4>
+                </div>
+                <div class="quantity">
                 <span class="quantity-btn-decrease">-</span>
                 <span class="quantity-input">${product.quantity}</span>
                 <span class="quantity-btn-increse">+</span>
-            </div>
-                <div class="price">${product.price * product.quantity}</div>
-                <div class="delete-producto">❌</div>
+                </div>
+                <div class="price">$${(product.price * product.quantity).toFixed(1)}</div>
+                <div class="delete-producto"><i class="trash fa-solid fa-trash"></i></div>
+
         </div>
         `;
         modalContainer.append(modalBody);
@@ -76,7 +77,7 @@ const displayCart = () => {
     const modalFooter = document.createElement('div');
     modalFooter.className = 'modal-footer';
     modalFooter.innerHTML = `
-    <div class="total-price">Total: $${total}</div>
+    <div class="total-price">Total: $${total.toFixed(1)}</div>
     `;
 
     modalContainer.append(modalFooter);

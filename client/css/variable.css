@@ -8,6 +8,7 @@
     --platinum: hsl(45, 14%, 89%);
     --keppel: hsl(168, 47%, 50%);
     --safron: hsl(44, 78%, 58%);
+    --red: rgba(200, 37, 37, 0.871);
 }
 
 body{

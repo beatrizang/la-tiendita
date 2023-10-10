@@ -12,13 +12,14 @@
 .modal-container{
     display: none;
     background-color: var(--platinum);
+    border-radius: 10px;
     box-shadow: 0px 3px 6px #00000029;
     padding: 40px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    max-width: 500px;
+    max-width: 800px;
     width: 100%;
     z-index: 1;
     max-height: 80vh;
@@ -49,14 +50,18 @@
 }
 
 .producto{
-    display: flex;
     align-items: center;
-    justify-content: space-around;
+    display: flex;
+    justify-content:space-around;
     margin-bottom: 20px;
 }
 
+
+
+
 .producto-img{
     background-color: white;
+    border-radius: 10px;
     height: 80px;
     margin-right: 20px;
     width: 80px;
@@ -66,6 +71,7 @@
 .producto-info{
     flex: 1;
     text-align: left;
+    text-transform: capitalize;
 }
 
 .product-info h4{
@@ -73,14 +79,18 @@
 }
 
 .quantity{
+    background-color: white;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    margin-right: 4em;
+    margin-right: -12em;
+    padding: 0.5rem;
+    position:absolute;
 }
 
-.quantity-btn-decrese,
+.quantity-btn-decrease,
 .quantity-btn-increse{
     color: #333333;
     cursor: pointer;
@@ -96,6 +106,9 @@
     text-align: center;
     width: 50px;
     font-weight: bold;
+}
+.trash{
+    color: var(--red);
 }
 
 @media only screen and (max-width: 500px) {
