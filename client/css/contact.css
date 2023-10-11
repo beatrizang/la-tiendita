@@ -51,9 +51,16 @@
 
 .field{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     margin: 0.5rem 0;
+}
+
+.field-box{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
 }
 
 .form-input{
@@ -62,6 +69,20 @@
     height: 25px;
     outline: none;
     width: 200px;
+    padding-left: 10px;
+}
+
+.form-input-msj{
+    width: 200px;
+    padding-left: 10px;
+}
+
+.msj-error{
+    color: var(--red);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
 }
 
 textarea{

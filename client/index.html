@@ -61,16 +61,25 @@
               <h3 class="contact-subtitle">¿Tienes alguna consulta?</h3>
                 <form id="form">
                     <div class="field">
-                      <label for="from_name">Nombre</label>
-                      <input class="form-input" type="text" name="from_name" id="from_name" placeholder="Ingrese su nombre">
+                      <div class="field-box">
+                        <label for="from_name">Nombre</label>
+                        <input class="form-input" type="text" name="from_name" id="from_name" placeholder="Ingrese su nombre">
+                      </div>
+                      <p class="msj-error" id="name-error"></p>
                     </div>
                     <div class="field">
-                      <label for="message">Mensaje</label>
-                      <textarea name="message" id="message" placeholder="Escribi tu Mensaje..."></textarea>
+                      <div class="field-box">
+                        <label for="message">Mensaje</label>
+                        <textarea  class="form-input-msj" name="message" id="message" placeholder="Escribi tu Mensaje..."></textarea>
+                      </div>
+                      <p class="msj-error" id="message-error"></p>
                     </div>
                     <div class="field">
-                      <label for="email_id">Email</label>
-                      <input class="form-input" type="email" name="email_id" id="email_id" placeholder="ejemplo@email.com">
+                      <div class="field-box">
+                        <label for="email_id">Email</label>
+                        <input class="form-input" type="email" name="email_id" id="email_id" placeholder="ejemplo@email.com">
+                      </div>
+                      <p class="msj-error" id="email-error"></p>
                     </div>
                   
                     <input class="form-btn" type="submit" id="button" value="Enviar" >
@@ -87,6 +96,7 @@
     <script src="/client/js/products.js"></script>
     <script src="/client/js/index.js"></script>
     <script src="/client/js/cart.js"></script>
+    
 
     <!--EMAIL JS-->
     <script type="text/javascript"
